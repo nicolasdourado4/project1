@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: #141414;
+
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+
+header nav a {
+    padding: 20px;
+}
+
+header nav a:hover {
+    background: linear-gradient(to right,#9655E4, #D22D86);
+    -webkit-text-fill-color: transparent; /* define cor de preenchimento do texto como transparente*/
+    -webkit-background-clip: text; /*background fica somente atrás do texto*/
+
+}
