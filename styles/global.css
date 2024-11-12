@@ -5,4 +5,19 @@
 .container {
     padding: 40px 20px;
     margin: 0 auto;
+    max-width: 1200px;
+}
+
+.section-title {
+    margin-bottom: 45px;
+    font-size: 2.5rem;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: #F97316;
 }
