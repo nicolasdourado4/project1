@@ -26,3 +26,26 @@ header nav a:hover {
     -webkit-background-clip: text; /*background fica somente atrás do texto*/
 
 }
+
+
+/*INTRODUCTION*/
+
+#introduction div {
+    display: flex;
+    flex-direction: row;
+}
+
+#introduction #titles {
+    display: flex;
+    flex-direction: column;
+}
+
+#titles h1 {
+    font-family: 'Times New Roman', times, serif;
+    font-size: 7.5rem;
+}
+
+#introduction div img {
+    max-width: 12%;
+    border-radius: 12px;
+}
