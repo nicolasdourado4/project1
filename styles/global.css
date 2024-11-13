@@ -8,6 +8,18 @@
     max-width: 1200px;
 }
 
+@media (max-width: 768px) {
+    .container {
+        padding: 30px 40px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container {
+        padding: 20px 30px;
+    }
+}
+
 .border {
     border-bottom: 4px solid white;
 

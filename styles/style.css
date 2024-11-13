@@ -8,6 +8,12 @@ body {
     scroll-behavior: smooth;
 }
 
+.section-title {
+    padding-top: 60px;
+}
+
+/*HEADER*/
+
 header {
     display: flex;
     flex-direction: row;
@@ -35,6 +41,50 @@ header nav a:hover {
     -webkit-text-fill-color: transparent; /* define cor de preenchimento do texto como transparente*/
     -webkit-background-clip: text; /*background fica somente atrás do texto*/
 
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    header nav a {
+        color: white;
+        padding: 10px 20px;
+
+        background-color: #7C3AED;
+        border-radius: 4px;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    header nav a {
+        font-size: 0.65rem;
+        padding: 8px 8px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    header nav {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        padding-bottom: 0px;
+    }
+
+    header nav a {
+        font-size: 1rem;
+        padding: 8px 8px;
+    }
 }
 
 
@@ -68,12 +118,45 @@ header nav a:hover {
 }
 
 #introduction div img {
-    height: 18vh;
-    width: 18vh;
+    max-width: 12%;
     object-fit: cover;
     border-radius: 12px;
 }
 
+@media (max-width: 768px) {
+
+    #introduction div {
+        align-items: center;
+        justify-content: center;
+    }
+
+    #titles h1 {
+        font-size: 4rem;
+    }
+
+
+}
+
+@media (max-width: 430px) {
+
+    #introduction div img {
+        max-width: 18%;
+    }
+
+    #titles h1 {
+        font-size: 2.4rem;
+    }
+
+    #titles span {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 375px) {
+    #titles h1 {
+        font-size: 2rem;
+    }
+}
 
 /*DESCRIPTION*/
 
@@ -138,6 +221,32 @@ header nav a:hover {
 }
 
 
+@media (max-width: 768px) {
+
+    #main-description {
+        width: 62%;
+    }
+
+    #side-description {
+        width: 40%;
+    }
+}
+
+@media (max-width: 430px) {
+    #description>div {
+        flex-direction: column;
+    }
+
+    #main-description {
+        width: 100%;
+    }
+
+    #side-description {
+        width: 100%;
+    }
+}
+
+
 /*INTERESTS*/
 
 #interests {
@@ -153,6 +262,7 @@ header nav a:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
 
 
@@ -175,6 +285,7 @@ header nav a:hover {
     width: 20px;
 
 }
+
 
 
 /*EXPERIENCES LIST*/
@@ -254,6 +365,10 @@ header nav a:hover {
     gap: 20px;
 }
 
+.personal-projects h3 {
+    font-size: 1.3rem;
+}
+
 .personal-projects-links {
     display: flex;
     gap: 20px;
@@ -304,6 +419,84 @@ header nav a:hover {
     width: 20px;
 }
 
+/*EXPERIENCES, INTERESTS AND SKILLS*/
+@media (max-width: 768px) {
+
+    .experience-card {
+        margin: 0px;
+    }
+
+    #interests {
+        display: flex;
+        justify-content: center;
+    }
+
+    #interests li {
+        font-size: 1.1rem;
+    }
+
+    .section-title {
+        text-align: center;
+        padding-top: 32px;
+    }
+
+    .skills-list {
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .skills-list li {
+        font-size: 1rem;
+    }
+
+    .card-titles {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-titles span {
+        font-size: 1rem;
+    }
+
+
+
+}
+
+@media (max-width: 430px) {
+
+    .experience-card {
+        padding-bottom: 80px;
+    }
+
+    .card-titles {
+        gap: 10px;
+    }
+
+    .card-titles span {
+        font-size: 0.9rem;
+    }
+
+    .personal-projects  {
+        align-items: center;
+    }
+
+    .skills-list li{
+        font-size: 0.9rem;
+        padding: 10px 10px 10px 34px;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+
+
+    #interests li {
+        font-size: 0.9rem;
+    }
+}
 
 
 /*FOOTER*/
@@ -319,4 +512,28 @@ footer div {
     justify-content: center;
     gap: 20px;
 }
+
+@media (max-width: 430px) {
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 375px) {
+    footer {
+        font-size: 0.7rem;
+    }
+}
+
+
+/*TITULO*/
+
+#secondary-title {
+    display: none;
+}
+
+#change-titles:hover #secondary-title {
+    display: block;
+}
+
 
