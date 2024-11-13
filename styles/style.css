@@ -1,5 +1,11 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: #F8FAFC;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -112,6 +118,10 @@ header nav a:hover {
     font-size: 1.8rem;
 }
 
+#side-description span {
+    font-size: 1rem;
+}
+
 #side-description p{
     font-size: 1.2rem;
     line-height: 2.1rem;
@@ -158,6 +168,10 @@ header nav a:hover {
 
 #experiences-list {
     background-image: linear-gradient(to bottom right, #F0ECFB, #F8F4F3);
+}
+
+#experiences-list h2 {
+    font-size: 2.5rem;
 }
 
 .experience-card{
@@ -237,8 +251,13 @@ header nav a:hover {
 
 /*SKILLS*/
 
-.skills {
+#skills {
     background-image: linear-gradient(to bottom right, #F0ECFB, #F8F4F3)
+}
+
+#skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 45px;
 }
 
 .skills-list {
