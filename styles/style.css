@@ -487,6 +487,7 @@ header nav a:hover {
         padding-bottom: 80px;
     }
 
+
     .card-titles {
         flex-direction: column;
         justify-content: center;
@@ -495,7 +496,15 @@ header nav a:hover {
     }
 
     .card-titles span {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
+    }
+
+    .card-description {
+        padding: 20px 20px;
+    }
+
+    .card-description span {
+        font-size: 1rem;
     }
 
     .personal-projects  {
