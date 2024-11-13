@@ -8,6 +8,11 @@
     max-width: 1200px;
 }
 
+.border {
+    border-bottom: 4px solid white;
+
+}
+
 .section-title {
     margin-bottom: 45px;
     font-size: 2.5rem;
@@ -16,6 +21,10 @@
 p {
     font-weight: 400;
     font-size: 1.2rem;
+}
+
+a {
+    color: #7C3AED;
 }
 
 a:hover {

@@ -32,27 +32,29 @@
             </div>
         </section>
 
-        <div id="description" class="container">
-            <div id="main-description">
-                <p>I am a focused, pragmatic, energetic nerd seeking a tech project that fits my skills, interests, and character. Currently live in nature somewhere around Roberstfors (Sweden), therefore available for remote work only or if your company is located around where I am. Which is, frankly speaking, highly unlikely.</p>
-                <br>
-                <p>In 2009, I fell in love with code and taught myself how to write code by reading awesome developers' code (open source) line by line while explaining their meaning out loud to myself. Later on, I learned that what I did was called
-                    <a href="index.html">rubber duck debugging.</a></p>
-                <br>
-                <p>Although I started as a front-end developer, my interests are broad. I am an <a href="index.html">Aspie (a person with Asperger's syndrome)</a>, so my hyper-focus ability is like a double edge sword. I can absorb so much in so little time, and overly obsessed with things or topics that interest me. So far, it has been beneficial, but my social life could sometimes suffer from it.</p>
-                <br>
-                <p>I love sport (CrossFit - home gym) 🏋️‍♀️ and practise daily meditation 🪷</p>
+        <section id="description" class="border">
+            <div class="container">
+                <div id="main-description">
+                    <p>I am a focused, pragmatic, energetic nerd seeking a tech project that fits my skills, interests, and character. Currently live in nature somewhere around Roberstfors (Sweden), therefore available for remote work only or if your company is located around where I am. Which is, frankly speaking, highly unlikely.</p>
+                    <br>
+                    <p>In 2009, I fell in love with code and taught myself how to write code by reading awesome developers' code (open source) line by line while explaining their meaning out loud to myself. Later on, I learned that what I did was called
+                        <a href="index.html">rubber duck debugging.</a></p>
+                    <br>
+                    <p>Although I started as a front-end developer, my interests are broad. I am an <a href="index.html">Aspie (a person with Asperger's syndrome)</a>, so my hyper-focus ability is like a double edge sword. I can absorb so much in so little time, and overly obsessed with things or topics that interest me. So far, it has been beneficial, but my social life could sometimes suffer from it.</p>
+                    <br>
+                    <p>I love sport (CrossFit - home gym) 🏋️‍♀️ and practise daily meditation 🪷</p>
+                </div>
+
+                <div id="side-description">
+                    <h1>Too long; <br> didn't read?</h1>
+                    <p>I am a self-taught aspie Software Engineer, mostly doing front-end stuff. A JavaScript lover, Python amateur, Hacker, Blockchain (Solidity) experimentalist and Web3 enthusiast. I also really enjoy UX Design. My ongoing projects are
+                        <a href="">Avstarna</a> & <a href="">Venopi</a>.</p>
+
+                </div>
             </div>
+        </section>
 
-            <div id="side-description">
-                <h1>Too long; <br> didn't read?</h1>
-                <p>I am a self-taught aspie Software Engineer, mostly doing front-end stuff. A JavaScript lover, Python amateur, Hacker, Blockchain (Solidity) experimentalist and Web3 enthusiast. I also really enjoy UX Design. My ongoing projects are
-                    <a href="">Avstarna</a> & <a href="">Venopi</a>.</p>
-
-            </div>
-        </div>
-
-        <section id="interests">
+        <section id="interests" class="border">
             <div class="container">
                 <h1 class="section-title">What am I looking for?</h1>
                 <ul>
@@ -63,24 +65,154 @@
             </div>
         </section>
 
-        <section id="experiences-list">
+        <section id="experiences-list" class="border">
             <div class="container">
-                <h1 class="section-title">Experience:</h1>
-                <div class="experience">
-                    <a href="">
-                        <img src="images/pointer.svg" alt="">
-                        Avstarna
-                    </a>
-                    <span>Amsterdam + Sweden | January 2024 - present</span>
-                    <div class="experience-info">
+                <h2 class="section-title">Experience:</h2>
+
+                <div class="experience-card">
+                    <div class="card-titles">
+                        <a href="">
+                            <img src="images/pointer.svg" alt="">
+                            <strong>Avstarna</strong>
+                        </a>
+                        <span class="experience-info">Amsterdam + Sweden | January 2024 - present</span>
+                    </div>
+                    <div class="card-description">
                         <h4>Position: I build Avstarna</h4>
-                        <span id="tech">Git, HTML5, SCSS, Tailwind CSS, Sketch, Svelte + SvelteKit, Supabase, PostgreSQL</span>
+                        <span class="experience-card-tech">Git, HTML5, SCSS, Tailwind CSS, Sketch, Svelte + SvelteKit, Supabase, PostgreSQL</span>
                     </div>
                     <p>We help manufacturers excel by simplifying and optimizing their processes</p>
                 </div>
+
+                <div class="experience-card">
+                    <div class="card-titles">
+                        <a href="">
+                            <img src="images/pointer.svg" alt="">
+                            <strong>Venopi</strong>
+                        </a>
+                        <span class="experience-info">Amsterdam | November 2019 - present</span>
+                    </div>
+                    <div class="card-description">
+                        <h4>Position: I build Venopi</h4>
+                        <span class="experience-card-tech">Git, HTML5, SCSS, Tailwind CSS, Sketch, ES6, Vue3, jQuery, Solidity, Django, Python</span>
+                    </div>
+                    <p>Our mission is to improve the event ecosystem through collaboration, digitalisation, and smart work.</p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-titles">
+                        <a href="">
+                            <img src="images/pointer.svg" alt="">
+                            <strong>Funda</strong>
+                        </a>
+                        <span class="experience-info">Amsterdam | July 2021 - December 2022</span>
+                    </div>
+                    <div class="card-description">
+                        <h4>Position: Senior Software Engineer</h4>
+                        <span class="experience-card-tech">Nuxtjs, Vue, ES6, Segment, Datadog, Iterable, Optimizely, Micro Frontend</span>
+                    </div>
+                    <p>
+                        Senior Software Engineer at Team Account. Our goal is to understand Funda's user as best as possible, through data tracking and analysing, so we can make decisions that can benefit the users and increase the loyalty score.
+                    </p>
+                    <br>
+                    <p>
+                        I also build the Nuxt application modules for the purpose of Micro Frontend Architechture; NPM packages such as Logger (for Datadog, an essential monitoring platform for cloud applications) and Tracking (for Segment ,a customer data platform that helps you collect, clean, and activate your customer data) that are used by the Funda frontend cluster
+                    </p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-titles">
+                        <a href="">
+                            <img src="images/pointer.svg" alt="">
+                            <strong>HackYourFuture</strong>
+                        </a>
+                        <span class="experience-info">Amsterdam | September 2017 - present</span>
+                    </div>
+                    <div class="card-description">
+                        <h4>Position: Code Mentor</h4>
+                        <span class="experience-card-tech">ARIA, HTML5, SCSS, JS</span>
+                    </div>
+                    <p>HackYourFuture is a code school (foundation) teaching computer programming to refugees. Our aim is to empower our students through coding and get them to work as software developers.</p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-titles">
+                        <a href="">
+                            <img src="images/pointer.svg" alt="">
+                            <strong>KPN</strong>
+                        </a>
+                        <span class="experience-info">Amsterdam | November 2017 - 2019</span>
+                    </div>
+                    <div class="card-description">
+                        <h4>Position: Freelance Front-end developer & UX Designer</h4>
+                        <span class="experience-card-tech">React, Redux, Git, HTML5, SCSS, SketchS</span>
+                    </div>
+                    <p>I belong to DDCI(Data-Driven Customer Interaction) team. Our main task is to build the most awesome Campaign tool (dashboard) for KPN using React + Redux.</p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-titles">
+                        <a href="">
+                            <img src="images/pointer.svg" alt="">
+                            <strong>UWV</strong>
+                        </a>
+                        <span class="experience-info">Amsterdam | November 2017 - 2019</span>
+                    </div>
+                    <div class="card-description">
+                        <h4>Position: Senior Front-end developer</h4>
+                        <span class="experience-card-tech">Angular, Browserstack, Selenium, Nightwatch, Git, Gulp, ARIA, HTML5, SCSS, Sketch</span>
+                    </div>
+                    <p>My main role is to lead the front-ender(s) at UX team, maintain the quality of the code, rebuild werk.nl project on Angular, and writing the front-end test using Browserstack (using Selenium + Nightwatch).p> </p>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-titles">
+                        <a href="">
+                            <img src="images/pointer.svg" alt="">
+                            <strong>Funda</strong>
+                        </a>
+                        <span class="experience-info">Amsterdam | November 2017 - 2019</span>
+                    </div>
+                    <div class="card-description">
+                        <h4>Position: Front-end developer</h4>
+                        <span class="experience-card-tech">HTML5, SCSS, ES6, jQuery, Optimizely, Git, Gulp, Mocha, Chai, Sinon, Sketch</span>
+                    </div>
+                    <p>My role at funda is as front-end developer in the team New Business. We're the startup team of Funda; in short, our role is to explore and build awesome projects outside the generic funda releases.</p>
+                </div>
+
+                <section class="experience-card personal-projects">
+                    <h2>Code for fun:</h2>
+                    <p>Most of my projects are private and belong to the companies I worked for, but these are some old code I did for fun.</p>
+                    <div class="personal-projects-links">
+                        <a href="">ES6 + testing</a>
+                        <a href="">Venopi Promoday</a>
+                        <a href="">CV blocks</a>
+                    </div>
+                </section>
+
             </div>
         </section>
 
+
+        <section class="skills border">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul class="skills-list">
+                    <li>Modular front-end code</li>
+                    <li>Monorepo</li>
+                    <li>ES6</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="container">
+                <span>ivanasetiawan</span>
+                <span>KVK#: 62163566</span>
+                <span>AT: NL002450150B24</span>
+            </div>
+        </footer>
 
     </div>
 
