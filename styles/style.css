@@ -150,18 +150,31 @@ header nav a:hover {
     margin-bottom: 20px;
     font-size: 1.2rem;
 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-/*#interests li::before {*/
-/*    background: url('../images/code.svg') no-repeat center;*/
-/*    content: '';*/
 
-/*    display: inline-block;*/
+/*#interests li img {*/
+
 /*    position: absolute;*/
-/*    height: 20px;*/
-/*    width: 20px;*/
-
+/*    margin-left: -64px;*/
+/*    width: 100px;*/
+/*    height: 100px;*/
 /*}*/
+
+#interests li::before {
+    background: url('../images/code.svg') no-repeat center;
+    content: '';
+
+    display: inline-block;
+    position: absolute;
+    margin-left: -24px;
+    height: 20px;
+    width: 20px;
+
+}
 
 
 /*EXPERIENCES LIST*/
@@ -264,24 +277,32 @@ header nav a:hover {
     list-style-type: none;
 
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 15px 20px;
 
 }
 
 .skills-list li {
     background-color: #EDE9FE;
-    padding: 20px 30px;
+    padding: 20px 30px 20px 50px;
     font-size: 1.2rem;
+
+    /*Alinhar imagem no centro*/
+    display: flex;
+    align-items: center;
 }
+
 
 .skills-list li::before {
-    background: url('images/code.svg') no-repeat center;
-    display: block;
+    background: url('../images/code.svg') no-repeat center;
     content: '';
 
+    display: inline-block;
+    position: absolute;
+    margin-left: -24px;
+    height: 20px;
+    width: 20px;
 }
-
 
 
 
