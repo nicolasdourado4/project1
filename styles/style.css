@@ -304,10 +304,16 @@ header nav a:hover {
     justify-content: center;
     gap: 6px;
 
+    color: #4C1D95;
+
     text-decoration: none;
     font-family: monospace;
     font-size: 1.2rem;
     font-weight: bold;
+}
+
+.card-titles a:hover {
+    color: #F97316;
 }
 
 .card-titles {
