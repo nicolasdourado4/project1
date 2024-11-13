@@ -69,7 +69,7 @@ header nav a:hover {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 393px) {
     header nav {
         display: flex;
         flex-direction: row;
@@ -151,7 +151,7 @@ header nav a:hover {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 393px) {
     #titles h1 {
         font-size: 2rem;
     }
@@ -489,7 +489,7 @@ header nav a:hover {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 393px) {
 
 
     #interests li {
@@ -518,7 +518,7 @@ footer div {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 393px) {
     footer {
         font-size: 0.7rem;
     }
